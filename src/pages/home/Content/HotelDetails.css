@@ -1,0 +1,58 @@
+/* container bao gồm toàn bộ phần thông tin khách sạn */
+.hotel-list__container {
+  width: 873.65px;
+  display: flex;
+  flex-direction: column;
+  margin: 17px auto;
+  padding-left: 13px;
+}
+.hotel-list__container h1 {
+  font-size: large;
+  margin-bottom: 17px;
+}
+/* Khung chứa thông tin từng khách sạn */
+.hotel-list__details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hotel-list__image {
+  width: 200px;
+  height: 200px;
+}
+
+.hotel-list__name {
+  font-size: medium;
+  text-decoration: underline;
+  color: #800080;
+  padding: 5px 0;
+}
+.hotel-list__city {
+  font-size: small;
+  color: dimgrey;
+  padding: 5px 0;
+}
+.hotel-list__price {
+  font-size: medium;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.hotel-list__ranking {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 0;
+}
+.hotel-list__rate {
+  font-size: small;
+  margin-right: 10px;
+  background-color: rgba(3, 3, 110, 0.772);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+.hotel-list__type {
+  font-size: small;
+}

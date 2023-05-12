@@ -1,0 +1,25 @@
+/* Khối bao gồm thẻ ul và li */
+.nav-bar__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  color: antiquewhite;
+  font: inherit;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+/* css từng phần tử li */
+.nav-bar__list li {
+  margin: 0px 20px;
+  padding: 10px;
+  font-size: small;
+}
+/* css icon */
+.nav-bar__list li i {
+  margin-right: 8px;
+}
+/* class nếu phần tử được chọn */
+.nav-bar__selected {
+  border: solid 1px white;
+  border-radius: 20px;
+}

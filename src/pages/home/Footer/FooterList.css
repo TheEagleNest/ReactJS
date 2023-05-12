@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+}
+.list li {
+  font-style: inherit;
+  font-size: x-small;
+  margin: 3px;
+  color: mediumblue;
+}

@@ -1,0 +1,54 @@
+/* Khung gồm tiêu đề và input */
+.header {
+  padding-top: 30px;
+  position: relative;
+  padding-bottom: 60px;
+}
+.header h1 {
+  color: antiquewhite;
+  font: inherit;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 60px;
+}
+.header-h2 {
+  color: antiquewhite;
+  font: inherit;
+  font-size: small;
+  font-weight: lighter;
+  margin-left: 60px;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+.header button {
+  background-color: rgb(43, 112, 232);
+  color: antiquewhite;
+  padding: 5px 8px;
+  margin-left: 60px;
+  margin-top: 10px;
+  border: none;
+}
+/* Khung chứa các thẻ input */
+.header-input {
+  width: 86%;
+  border: solid 2px orange;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -10%;
+  left: 7%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+}
+.header-input input {
+  border: none;
+  width: 25%;
+  margin: 0 auto;
+}
+.header-input button {
+  border: none;
+  width: 10%;
+  align-items: center;
+  margin: 0 auto;
+}

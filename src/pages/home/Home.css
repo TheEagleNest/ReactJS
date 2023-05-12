@@ -1,0 +1,42 @@
+/* đổ màu navbar container */
+#nav-bar {
+  background-color: #1730a0;
+}
+/* Khối chứa nội dung navbar */
+.nav-bar {
+  width: 70vw;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+/* Khung chứa tên web và nút đăng kí */
+.nav-bar__title {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+/* Booking website */
+.nav-bar-h2 {
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  font: inherit;
+  font-size: small;
+  margin-left: 61px;
+  margin-top: 5px;
+}
+/* Khung chứa 2 button */
+.button {
+  display: flex;
+  margin-top: 5px;
+  margin-right: 38px;
+}
+/* css từng button */
+.button button {
+  color: #1730a0;
+  font-size: small;
+  background-color: antiquewhite;
+  padding: 5px 12px;
+  margin: 0 10px;
+  border: none;
+}

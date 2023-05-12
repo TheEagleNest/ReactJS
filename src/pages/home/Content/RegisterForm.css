@@ -1,0 +1,43 @@
+/* container toàn bộ phần đăng ký thành viên */
+.register-container {
+  background-color: #1730a0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-container h1 {
+  font: inherit;
+  font-size: x-large;
+  font-weight: bold;
+  color: antiquewhite;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.register-container p {
+  font: inherit;
+  color: antiquewhite;
+  font-size: small;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+/* Khung chứa thẻ input và button */
+.register-info {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.register-container input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.register-container button {
+  background-color: rgb(43, 112, 232);
+  color: antiquewhite;
+  width: 80px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+}

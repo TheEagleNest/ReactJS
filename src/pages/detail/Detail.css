@@ -1,0 +1,114 @@
+/* Khối chứa toàn bộ phần thông tin chi tiết khách sạn */
+.detail-container {
+  width: 62vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* Khối nội dung tên, địa chỉ,.. */
+.detail-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.detail-info__content h2 {
+  padding-bottom: 10px;
+  font-size: large;
+}
+.detail-info__content :nth-child(2) {
+  font-size: small;
+  padding-bottom: 10px;
+}
+.detail-info__content :nth-child(2) i {
+  margin-right: 10px;
+}
+.detail-info__content :nth-child(3) {
+  font-size: small;
+  color: rgba(0, 85, 255, 0.753);
+  padding-bottom: 10px;
+}
+.detail-info__content :nth-child(4) {
+  font-size: small;
+  color: green;
+  padding-bottom: 10px;
+}
+
+/* Khối chứa button */
+.detail-info button {
+  background-color: rgb(43, 112, 232);
+  border: none;
+  border-radius: 5px;
+  color: antiquewhite;
+  width: 180px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Khối chứa toàn bộ ảnh */
+.detail-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.detail-images img {
+  width: 98%;
+  margin: 3px;
+}
+
+/* Khối chứa nội dung viết */
+.detail-content {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Phần nội dung */
+.detail-content__description {
+  width: 1000px;
+}
+.detail-content__description h2 {
+  font-size: large;
+  margin-bottom: 20px;
+}
+.detail-content__description p {
+  font-size: x-small;
+  margin-right: 20px;
+}
+
+/* Phần giá tiền */
+.detail-content__night {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(247, 233, 248);
+  width: 300px;
+  height: 190px;
+}
+.detail-content__night h2 {
+  font-size: 12px;
+  color: dimgrey;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.detail-content__night p {
+  font-size: x-small;
+  text-align: start;
+  margin: 10px 20px;
+}
+.detail-content__night :nth-child(3) {
+  font-size: medium;
+  font-weight: bold;
+}
+.detail-content__night span {
+  font-weight: 200;
+}
+.detail-content__night button {
+  margin: 10px 20px;
+  width: 200px;
+  background-color: rgb(43, 112, 232);
+  border: none;
+  padding: 5px;
+  color: antiquewhite;
+}
